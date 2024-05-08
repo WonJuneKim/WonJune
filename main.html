@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Main </title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<h1>김원준의 포트폴리오</h1>
+<div id="txt_welcome">
+    안녕하세요, <br>
+    프론트엔드 개발자 김원준입니다. <br>
+    제 프로젝트를 소개합니다.
+    <br>
+    <br>
+</div>
+<div style="display:grid; grid-template-columns: 1fr 1fr 1fr;">
+    <div class="card">
+        <img class="card_img" src="./img/redRacket.png">
+        <p class="card_title"> Red Racket </p>
+        <input class="card_button" type="button" value="order"
+               onclick="location.href='/order?productId=1'">
+    </div>
+    <div class="card">
+        <img class="card_img" src="./img/blueRacket.png">
+        <p class="card_title"> Blue Racket </p>
+        <input class="card_button" type="button" value="order" onclick="location.href='/order?productId=2'">
+    </div>
+    <div class="card">
+        <img class="card_img" src="./img/blackRacket.png">
+        <p class="card_title"> Black Racket </p>
+        <input class="card_button" type="button" value="order" onclick="location.href='/order?productId=3'">
+    </div>
+</div>
+</body>
+</html>
